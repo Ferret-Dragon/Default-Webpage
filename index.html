@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">My Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hero.css">
+</head>
+<body>
+    Navigation Bar
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Logo</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Main Content -->
+    <main>
+        <section id="home" class="hero">
+            <h1 id="site-name">My Website</h1>
+            <p>Your content here</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+        <script>
+            const SITE_NAME = "My Website";
+
+            document.getElementById("page-title").textContent = SITE_NAME;
+            document.getElementById("site-name").textContent = SITE_NAME;
+        </script>
+</body>
+</html>

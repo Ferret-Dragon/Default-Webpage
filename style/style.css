@@ -1,0 +1,13 @@
+:root {
+  --hero-text-color: #ffffff;
+  --hero-bg-color: #1d4ed8;
+  --overlay-dark: rgba(0, 0, 0, 0.5);
+  
+  --background-color: purple;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: var(--background-color);
+}
