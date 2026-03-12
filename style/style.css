@@ -4,6 +4,14 @@
   --overlay-dark: rgba(0, 0, 0, 0.5);
   
   --background-color: purple;
+
+  --nav-bg-color: #333;
+  --nav-link-color: #f2f2f2;
+  --nav-link-hover-bg-color: #ddd;
+  --nav-link-hover-color: black;
+  --nav-link-active-bg-color: #04AA6D;
+  --nav-link-active-color: white;
+  
 }
 
 body, html {
