@@ -12,8 +12,18 @@
 }
 
 .hero.with-image {
-  background-image: linear-gradient(var(--overlay-dark), var(--overlay-dark)), url("photographer.jpg");
+  background-image: linear-gradient(var(--overlay-dark), var(--overlay-dark)), url("image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero p {
+  font-family: var(--hero-p-font);
+  font-size: var(--hero-p-size);
+  font-weight: var(--hero-p-weight);
+  color: var(--hero-p-color);
+  line-height: 1.5;
+  max-width: 560px;
+  margin: 0.5rem 0 0;
 }

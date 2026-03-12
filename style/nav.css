@@ -1,6 +1,7 @@
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: var(--nav-bg-color);
+  position: sticky;
+  top: 0;
   overflow: hidden;
 }
 
