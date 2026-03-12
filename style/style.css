@@ -23,6 +23,16 @@
   --content-margin: 5%;
   --content-head-margin: .5%;
 
+  /* Button */
+  --button-bg-color: #1d4ed8;
+  --button-text-color: #ffffff;
+  --button-hover-bg-color: #2563eb;
+  --button-hover-text-color: #ffffff;
+  --button-active-bg-color: #1e40af;
+  --button-active-text-color: #ffffff;
+  --button-shadow-color: rgba(5, 5, 5, 0.738);
+  --button-font: 'Roboto', sans-serif;
+
   /* Headings */
   --h1-font: 'Roboto', sans-serif;
   --h1-color: #111827;
