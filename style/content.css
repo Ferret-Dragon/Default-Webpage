@@ -1,3 +1,19 @@
+.content {
+  padding: 2rem var(--content-margin);
+}
+
+.content.centered {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content.centered p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-family: var(--h1-font);
   font-size: var(--h1-size);
